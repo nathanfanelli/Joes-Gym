@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Python Fitness, leave your mark.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Joe's Gym</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <nav>
+      <h1><a href="index.html"><span class="title-color">Joe's</span> Gym</a></h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li class="nav-end"><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+    <p>Find Your Strength</p>
+  </header>
+  <!-- End Header -->
+
+  <!-- Sign Up -->
+  <main class="join-now-container">
+    <form class="sign-up-form wow fade-in" data-wow-delay=".5s">
+      <h2>Sign Up</h2>
+      <fieldset>
+        <legend><span class="number">1</span>About You</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="user_name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="user_email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" name="user_password" id="password">
+        <label for="bio">Biography:</label>
+        <textarea id="bio"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend><span class="number">2</span>Your Interest</legend>
+        <label>Program:</label>
+        <select id="program" name="user_program">
+          <optgroup label="Exercise Programs">
+            <option value="crossfit">CrossFit</option>
+            <option value="bodybuilding">Bodybuilding</option>
+            <option value="yoga">Yoga</option>
+            <option value="cycling">Cycling</option>
+          </optgroup>
+          <optgroup label="Tanning">
+            <option value="tanning">Tanning</option>
+            <option value="massage">Massage</option>
+          </optgroup>
+        </select>
+        <label class="block-label">Gender:</label>
+        <input type="radio" name="user_gender" value="male" id="male"><label for="male">Male</label>
+        <input type="radio" name="user_gender" value="female" id="female"><label for="female">Female</label>
+        <label class="block-label">Access:</label>
+        <input type="checkbox" value="trainers" name="user_access" id="trainers"><label for="trainers">Trainers</label>
+        <input type="checkbox" value="spa" name="user_access" id="spa"><label for="spa">Tanning Bed</label>
+        <input type="checkbox" value="exercise_programs" name="user_access" id="exercise_programs"><label for="exercise_programs">Tailored Programs</label>
+      </fieldset>
+      <button class="-sign-up-button" type="submit">Submit</button>
+    </form>
+  </main>
+  <!-- End Sign Up -->
+
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="flex-container">
+
+      <!-- About -->
+      <section class="item-1">
+        <h1>About <a href="gymlanding.html"><span class="title-color">Joe's</span> Gym</a></h1>
+        <p>Joe Hart opened the first Joe's Gym in his hometown of Charlotte, North Carolina in 2011. Joe is a passionate fitness enthusiast who has committed his life to providing the best possible environment for individuals to acheive their physical and mental potential. With over eight years </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="social-bar">
+          <a href="facebook.com"><i class="social-icon fab fa-facebook-f"></i></a>
+          <a href="www.twitter.com"><i class="social-icon fab fa-twitter"></i></a>
+          <a href="www.instagram.com"><i class="social-icon fab fa-instagram"></i></a>
+        </div>
+      </section>
+      <!-- End About -->
+
+      <!-- Contact -->
+      <section class="item-2">
+        <p class="hello">Contact:</p>
+        <p class="contact-info"><i class="contact-icon fas fa-map-marker-alt"></i>3024 E Blue St, Charlotte, NC 28277</p>
+        <p class="contact-info"><i class="contact-icon fas fa-envelope"></i> joehart@joesgym.com</p>
+        <p class="contact-info"><i class="contact-icon fas fa-phone"></i> (547) 657 9459</p>
+      </section>
+      <!-- End Contact -->
+
+    </div>
+    <p class="copyright">2018&copy; copyrighted by <a href="gymlanding.html"><span class="title-color">Joe's</span> Gym</a>.</p>
+    <a href="#top" id="scrollUp"><i class="fas fa-angle-up"></i></a>
+  </footer>
+  <!-- End Footer -->
+
+
+  <!-- Javascript -->
+  <script src="JS/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="JS/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- End Javascript -->
+
+
+</body>
+
+</html>
