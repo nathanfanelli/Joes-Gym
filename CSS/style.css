@@ -457,9 +457,6 @@ button:hover{
   .item-1, .item-2, .item-3 {
     flex-grow: 1;
   }
-  .item-1{
-    margin-right: 50px;
-  }
   .section-1 .item-2 {
     margin: 0 20px;
   }
